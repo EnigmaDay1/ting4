@@ -1,0 +1,88 @@
+<section class="oe_container">
+    <div class="oe_row">
+        <h2 class="oe_slogan">Introduction</h2>
+        <p>
+This module provides XML integration between Odoo and Ingram Micro Servers.  
+		</p>
+		<p>
+It allows to maintain the Ingram product catalog and price list automatically up to date. It also provides a real time integration for quotation, sales, purchases and deliveries.		
+		</p>
+		<p>
+Actions in Odoo generate requests toward Ingram to get information or to order directly without using any external tool or website.		
+		</p>
+		<p>
+This module adds some functionality but don’t alter the workflow of Odoo.
+		</p>
+
+    </div>
+</section>
+
+<section class="oe_container oe_dark">
+	    <div class="oe_row">
+        <h2 class="oe_slogan">Sales</h2>
+            <p class="oe_mt32">
+The Ingram module indicates the real stock on the sale order lines. If the product is not in the Ingram category, the value will be “N/A”. The unit price will be updated automatically.
+
+            </p>
+        <div class="oe_row_img oe_centered oe_mt32">
+            <img class="oe_picture oe_screenshot" src="sale_1.png">
+        </div>
+		<p class="oe_mt32">
+Any time, you can check if the price and the stock have changed. You just have to click on the “Price Availability” button.
+
+        </p>
+        <div class="oe_row_img oe_centered oe_mt32">
+			<img class="oe_picture oe_screenshot" src="sale_2.png">
+        </div>			
+		<p class="oe_mt32">
+If there are changes in the stock or prices, the lines will be set in different colors.<br>
+Blue : Stock decreases (this condition has priority over the other conditions).<br>
+Red : Price increases. Warning: The price is not updated. You need to update it manually.<br>
+Green : Price decreases. Warning: The price is not updated. You need to update it manually.<br>
+        </p>
+		<div class="oe_row_img oe_centered oe_mt32">
+			<img class="oe_picture oe_screenshot" src="sale_3.png">
+        </div>
+    </div>
+</section>
+
+<section class="oe_container">
+    <div class="oe_row oe_spaced">
+        <h2 class="oe_slogan">Purchases</h2>
+        <div class="oe_span6">
+            <p class="oe_mt32">
+In the purchase order, as in the sale order, you have the possibility to check Ingram products prices and availabilities.
+</p>
+<p>When you confirm the order, if one line referred to a non-Ingram product, a new purchase order will be created.
+
+</p>
+<p>You can confirm the order again and this one will be in “Waiting Approval” if the transaction is successfully done with Ingram. You just need to approve the order to create the incoming receipt.
+
+            </p>
+        </div>
+        <div class="oe_span6">
+            <div class="oe_row_img oe_centered">
+                <img class="oe_picture oe_screenshot" src="purchase_1.png">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="oe_container oe_dark">
+    <div class="oe_row oe_spaced">
+        <h2 class="oe_slogan">Warehouse</h2>
+        <h3 class="oe_slogan">(Incoming Shipments)</h3>
+        <div class="oe_span6">
+            <div class="oe_row_img oe_centered">
+                <img class="oe_picture oe_screenshot" src="warehouse_1.png">
+            </div>
+        </div>
+        <div class="oe_span6">
+            <p class="oe_mt32">
+If you want to have a status of the incoming product, you just need to go on the Incoming Shipments and click on the button “Status” in the “History command” page.
+            </p><p>
+A new line is created if description changes.
+            </p>
+        </div>
+    </div>
+</section>
