@@ -6,7 +6,7 @@ First Step
 **********
 Install the module
 
-.. image:: http://image.noelshack.com/fichiers/2016/13/1459514249-step1.jpg
+.. image:: http://image.noelshack.com/fichiers/2016/14/1459842293-step1.jpg
 
 Second Step
 ***********
@@ -30,7 +30,7 @@ and click on Configuration, then Ingram  :
 
 You can now make your configuration :
 
-.. image:: step33.png
+.. image:: http://image.noelshack.com/fichiers/2016/14/1459842216-step33.png
 
 Button explanation:
 
