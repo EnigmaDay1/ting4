@@ -50,8 +50,8 @@ Activate the Cron Job in the Administration menu :
  
 **3.3.2. Fields explanation :**
 
-* Name : Name associed with the configuration
-* Supplier : Link to the Ingram supplier
+* Name : Name associed with the configuration (in this case: ingram)
+* Supplier : Link to the Ingram supplier (in this case: ingram)
 * Country : Supplier's country
 * Location : Stock for the products
 * Category : Products category
@@ -82,3 +82,9 @@ Activate the Cron Job in the Administration menu :
 3.3.4. Don't forget to define the sales and purchases taxes (VAT) on the Accounting page.
 
  .. image:: http://image.noelshack.com/fichiers/2016/13/1459515129-step4.png
+ 
+
+3.3.5. Make sure you you configured your company data in :
+* Settings
+* General Settings
+* Configure your company data
