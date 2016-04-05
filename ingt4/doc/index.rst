@@ -30,7 +30,7 @@ and click on Configuration, then Ingram  :
 
 You can now make your configuration :
 
-.. image:: images/step33.png
+.. image:: images/doc/step33.png
 
 Button explanation:
 
