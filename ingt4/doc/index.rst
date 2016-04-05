@@ -85,6 +85,7 @@ Activate the Cron Job in the Administration menu :
  
 
 3.3.5. Make sure you you configured your company data in :
+
 * Settings
 * General Settings
 * Configure your company data
