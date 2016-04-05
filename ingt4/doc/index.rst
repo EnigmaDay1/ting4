@@ -30,7 +30,7 @@ and click on Configuration, then Ingram  :
 
 You can now make your configuration :
 
-.. image:: http://image.noelshack.com/fichiers/2016/13/1459516250-step32.png
+.. image:: images/step33.png
 
 Button explanation:
 
