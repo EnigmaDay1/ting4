@@ -40,7 +40,7 @@
     2.0: Add the name of file to import for products categories and products in the configuration. Supplier informations are now synchronized in the o2m fields to add other supplier on a product. 
     2.1 : Improve products categories synchronization
     """,
-    'images': ['images/main_screenshot','images/Sale_Order.png','images/Ingram_Category.png','images/Purchase_Order.png','images/Delivery.png',],
+    'images': ['images/main_screenshot.png','images/Sale_Order.png','images/Ingram_Category.png','images/Purchase_Order.png','images/Delivery.png',],
     'website': 'http://www.bhc.be/en/application/ingram-micro',
     "data": [
              "product_view.xml",
