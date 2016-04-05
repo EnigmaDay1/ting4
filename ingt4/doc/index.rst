@@ -1,12 +1,14 @@
-
 Installation Steps
 ==================
+
 
 First Step
 **********
 Install the module
 
  .. image:: http://image.noelshack.com/fichiers/2016/14/1459842293-step1.jpg
+
+
 
 Second Step
 ***********
@@ -18,19 +20,24 @@ Activate the Cron Job in the Administration menu :
 
  .. image:: http://image.noelshack.com/fichiers/2016/13/1459514717-step2.png
 
+
+
 Third Step
 **********
 Create a configuration, to access to it, you have to go in your Inventory app.
 
  .. image:: http://image.noelshack.com/fichiers/2016/13/1459515874-step30.png
 
+
 and click on Configuration, then Ingram  :
 
  .. image:: http://image.noelshack.com/fichiers/2016/13/1459515396-step31.png
 
+
 You can now make your configuration :
 
  .. image:: http://image.noelshack.com/fichiers/2016/14/1459842216-step33.png
+
 
 **Button explanation :**
 
@@ -39,6 +46,7 @@ You can now make your configuration :
 * Synchronize : synchronize the products categories and products. Based on the SKU (product reference) to define if the products already exists.
 * Clean Date : Set as inactive product that were not synchronized for a week but were already used in Odoo. If products are not used, it will be deleted.
 * Delete Data : Set as inactive all the ingram products already used in the Odoo. If products aren't used, it will deleted.
+ 
  
 **Fields explanation :**
 
@@ -64,6 +72,7 @@ You can now make your configuration :
 * Date of last synchronization : Date of the last manual synchronization (click on the button)
 * Products Categories File Name : Name of the file used for the products categories
 * Products File Name : Name of the file used for the products 
+
 
 **Warning : The header of the products file must be this one :**
 
