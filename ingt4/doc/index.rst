@@ -2,16 +2,16 @@ Installation Steps
 ==================
 
 
-First Step
-**********
+1. First Step
+*************
 Install the module
 
  .. image:: http://image.noelshack.com/fichiers/2016/14/1459842293-step1.jpg
 
 
 
-Second Step
-***********
+2. Second Step
+**************
 Activate the Cron Job in the Administration menu :
 
 * Settings
@@ -22,24 +22,24 @@ Activate the Cron Job in the Administration menu :
 
 
 
-Third Step
-**********
-Create a configuration, to access to it, you have to go in your Inventory app.
+3. Third Step
+*************
+3.1. Create a configuration, to access to it, you have to go in your Inventory app
 
  .. image:: http://image.noelshack.com/fichiers/2016/13/1459515874-step30.png
 
 
-and click on Configuration, then Ingram  :
+3.2. Click on Configuration, then Ingram  :
 
  .. image:: http://image.noelshack.com/fichiers/2016/13/1459515396-step31.png
 
 
-You can now make your configuration :
+3.3. You can now make your configuration :
 
  .. image:: http://image.noelshack.com/fichiers/2016/14/1459842216-step33.png
 
 
-**Button explanation :**
+**3.3.1. Button explanation :**
 
 * Check FTP Connection : Check if the connection with your credentials is correctly set.
 * Download : Download the products files with the names set at the end of this configuration.
@@ -48,7 +48,7 @@ You can now make your configuration :
 * Delete Data : Set as inactive all the ingram products already used in the Odoo. If products aren't used, it will deleted.
  
  
-**Fields explanation :**
+**3.3.2. Fields explanation :**
 
 * Name : Name associed with the configuration
 * Supplier : Link to the Ingram supplier
@@ -74,11 +74,11 @@ You can now make your configuration :
 * Products File Name : Name of the file used for the products 
 
 
-**Warning : The header of the products file must be this one :**
+**3.3.3. Warning : The header of the products file must be this one :**
 
 *'Ingram Part Number, Vendor Part Number, EANUPC Code, Plant, Vendor Number, Vendor Name, Weight, Category ID, Customer Price, Retail Price, Availability Flag, BOM Flag, Warranty Flag, Material Long Description, Material Creation Reason code, Material Language Code, Music Copyright Fees, Recycling Fees, Document Copyright Fees, Battery Fees, Availability (Local Stock),Availability (Central Stock),Creation Reason Type, Creation Reason Value, Local Stock Backlog Quantity, Local Stock Backlog ETA, Central Stock Backlog Quantity, Central Stock Backlog ETA'*
 
 
-Don't forget to define the sales and purchases taxes (VAT) on the Accounting page.
+3.3.4. Don't forget to define the sales and purchases taxes (VAT) on the Accounting page.
 
  .. image:: http://image.noelshack.com/fichiers/2016/13/1459515129-step4.png
